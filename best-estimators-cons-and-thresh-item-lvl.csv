@@ -1,0 +1,9 @@
+,Diag,Best Estimator,Best Threshold
+0,New Diag: Specific Learning Disorder with Impairment in Mathematics,"Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('randomforestclassifier',
+                 RandomForestClassifier(class_weight='balanced',
+                                        criterion='entropy', max_depth=94,
+                                        max_features=0.75, min_samples_leaf=4,
+                                        min_samples_split=34,
+                                        n_estimators=354))])",1.0
