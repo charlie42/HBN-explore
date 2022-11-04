@@ -1,0 +1,26 @@
+,Output,Best Estimator
+0,"WIAT,WIAT_Num_Stnd","Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=1.1792620519988959,
+                            l1_ratio=0.5336610053169101))])"
+1,"WIAT,WIAT_Word_Stnd","Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.5935750930365563,
+                            l1_ratio=0.9060896640176656))])"
+2,"WISC,WISC_Coding_Scaled","Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.17035303230918725,
+                            l1_ratio=0.7746917603735521))])"
+3,"WISC,WISC_FSIQ","Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.4787901414784685,
+                            l1_ratio=0.6812455672888748))])"
+4,"WISC,WISC_SS_Scaled","Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='median')),
+                ('standardscaler', StandardScaler()),
+                ('elasticnet',
+                 ElasticNet(alpha=0.17453763924188861,
+                            l1_ratio=0.8035634144231569))])"
